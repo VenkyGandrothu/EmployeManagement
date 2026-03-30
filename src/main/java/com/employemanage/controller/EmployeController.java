@@ -37,4 +37,9 @@ public class EmployeController {
         return "employeeList";
     }
 
+    @GetMapping("/getEmployeById")
+    public void showEmployeById(){
+
+    }
+
 }
