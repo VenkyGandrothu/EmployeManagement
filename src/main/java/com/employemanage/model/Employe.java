@@ -4,8 +4,8 @@ public class Employe {
 
     private int empId;
     private String empName;
-    private String role;
-    private int salary;
+    private String empRole;
+    private int empSalary;
 
     public int getEmpId() {
         return empId;
@@ -23,27 +23,27 @@ public class Employe {
         this.empName = empName;
     }
 
-    public String getRole() {
-        return role;
+    public String getEmpRole() {
+        return empRole;
     }
 
-    public void setRole(String role) {
-        this.role = role;
+    public void setEmpRole(String empRole) {
+        this.empRole = empRole;
     }
 
-    public int getSalary() {
-        return salary;
+    public int getEmpSalary() {
+        return empSalary;
     }
 
-    public void setSalary(int salary) {
-        this.salary = salary;
+    public void setEmpSalary(int empSalary) {
+        this.empSalary = empSalary;
     }
 
-    public Employe(int empId, int salary, String empName, String role) {
+    public Employe(int empId, int empSalary, String empName, String role) {
         this.empId = empId;
-        this.salary = salary;
+        this.empSalary = empSalary;
         this.empName = empName;
-        this.role = role;
+        this.empRole = role;
     }
 
     public Employe(){
